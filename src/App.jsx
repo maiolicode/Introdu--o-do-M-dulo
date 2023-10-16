@@ -1,4 +1,5 @@
-import './styles/global.css'
+import RepositoryList from "./components/RepositoryList";
+import "./styles/global.css";
 export function App() {
-    return <h1>Hello World</h1>
+  return <RepositoryList />;
 }
